@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.flooss",
+    "module": "embedded-finance-sdk",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embedded-finance-sdk-0.11.0.aar",
+          "url": "embedded-finance-sdk-0.11.0.aar",
+          "size": 2003030,
+          "sha512": "c26433abe1ee6a3317728eac91dcd9d8fab4e6cfbfbf0451b936d9f641e26eb1b6d180ba3f94063d0c39e88fe1edda0e0cef0c572c4e19f35bd74c63dfa39fa1",
+          "sha256": "ed54a11d7397c75c250518563c5b0fddf89d294404cf702d0a1ebf4c6e2e23a4",
+          "sha1": "13fc482374fb1d16dfa5cf4caae1cadcdbb6ef24",
+          "md5": "d272a97a9288e91ec42662b0daa7e759"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.8.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embedded-finance-sdk-0.11.0.aar",
+          "url": "embedded-finance-sdk-0.11.0.aar",
+          "size": 2003030,
+          "sha512": "c26433abe1ee6a3317728eac91dcd9d8fab4e6cfbfbf0451b936d9f641e26eb1b6d180ba3f94063d0c39e88fe1edda0e0cef0c572c4e19f35bd74c63dfa39fa1",
+          "sha256": "ed54a11d7397c75c250518563c5b0fddf89d294404cf702d0a1ebf4c6e2e23a4",
+          "sha1": "13fc482374fb1d16dfa5cf4caae1cadcdbb6ef24",
+          "md5": "d272a97a9288e91ec42662b0daa7e759"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "embedded-finance-sdk-0.11.0-sources.jar",
+          "url": "embedded-finance-sdk-0.11.0-sources.jar",
+          "size": 195528,
+          "sha512": "c45f8959fcf286ff41af93594c7709fb7a05c29e11eb99bc77f31ddd364bd9a4f6e011c3b59d1d1f92c42b7f879bf148f40533078fe0fec8ecd070b8e98183e2",
+          "sha256": "4f6a5f38e3a04ec10d86215a41993b14da5bae2cc2a8d0a34d5da9ac8de12348",
+          "sha1": "12088f11ebd4e326aa9c8dcf73ec384ecb8145d2",
+          "md5": "59d37fcf98ff057cc4e83eb2aec136ab"
+        }
+      ]
+    }
+  ]
+}
